@@ -1,0 +1,48 @@
+1.Contact Manager App (Fullstack Application) 
+
+\\Installation Steps For Creating The App
+
+1. DB Installation:
+a.Install_Mysql Server & GUI
+b.created tables
+	
+2. Python installation & project configuration
+a.Install_python (Installation Using EXE file)
+b.Installed_pycharm(Installation Using exe file)
+
+3. django project setup
+
+a.Install django
+using command: pip install django  
+
+\\ Steps For Creating Project
+b. create project
+using command: django-admin startproject ContactManager
+
+c.Once the folder is created open project in pycharm
+
+d.create application 
+run following command in pycharm terminal
+python manage.py startapp ContactManagerApp
+
+e.install Mysql client
+using command:pip install mysqlclient
+
+f. install django filters
+using command:pip install django-filter
+
+g. update mysql connection into in settings.py
+
+h.update application name in settings.py
+
+4.Code
+
+a.create models for tables
+b.create forms & import models
+c.run makemigration & migrate command(to create tables newly)
+d.create statics and templates directries
+e.update view.py
+f.update url.py with views url mapping
+
+5.Run server
+using comman:python manage.py runserver
